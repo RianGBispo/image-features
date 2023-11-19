@@ -24,6 +24,6 @@ for corner in corners:
 
 # Exibindo a imagem redimensionada com os cantos destacados
 cv2.imshow('Cantos Detectados (Redimensionado)', building_colored)
-cv2.imwrite('building_colored.jpg', building_colored)
+cv2.imwrite('data/building_colored.jpg', building_colored)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
